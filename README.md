@@ -4,9 +4,11 @@
 
 [![codecov](https://codecov.io/gh/anthonyalmarza/CHANGE_ME/branch/main/graph/badge.svg?token=JRCC98L3FG)](https://codecov.io/gh/anthonyalmarza/CHANGE_ME)
 
+![Build](https://github.com/anthonyalmarza/open-source-python-template/workflows/Build/badge.svg)
+
 ## Local Development
 
-## Pyenv
+### Pyenv
 It's recommended that you use [`pyenv`](https://github.com/pyenv/pyenv)
 
 [pyenv-installer](https://github.com/pyenv/pyenv-installer)
