@@ -38,13 +38,21 @@ codecov = "^2.1.11"
 coverage = {extras = ["toml"], version = "^5.3"}
 ipython = "^7.19.0"
 pre-commit = "^2.9.3"
+Sphinx = "^3.4.1"
+sphinx-sitemap = "^2.2.0"
+sphinx-pyreverse = "^0.0.13"
+sphinx-autodoc-typehints = "^1.11.1"
+sphinx-autobuild = "^2020.9.1"
+recommonmark = "^0.7.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-tests = "tests.run:main"
+tests = "scripts.tests:main"
+docs-autobuild = "scripts.docs_autobuild:main"
+docs-build = "scripts.docs_build:main"
 
 [tool.coverage.run]
 source = [

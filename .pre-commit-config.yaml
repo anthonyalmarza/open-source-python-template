@@ -29,6 +29,7 @@ repos:
     rev: v1.3.0
     hooks:
       - id: dead
+        args: ["--exclude", "documentation/conf.py"]
   - repo: https://github.com/asottile/blacken-docs
     rev: v1.9.1
     hooks:
