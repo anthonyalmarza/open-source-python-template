@@ -545,6 +545,14 @@ optional = false
 python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
 
 [[package]]
+name = "pyproject-script"
+version = "0.0.0a0"
+description = ""
+category = "dev"
+optional = false
+python-versions = ">=3.8,<4.0"
+
+[[package]]
 name = "pytest"
 version = "6.2.1"
 description = "pytest: simple powerful testing with Python"
@@ -987,7 +995,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "995b21e2fb43fc3eb792c28f039367d19efbbc1e38f1423216f42b379e66b048"
+content-hash = "1fe379d1ebef744f0c9a4589482d10f4830f040d7e6c2ebbd7232be2eeb1bfd5"
 
 [metadata.files]
 alabaster = [
@@ -1286,6 +1294,10 @@ pygments = [
 pyparsing = [
     {file = "pyparsing-2.4.7-py2.py3-none-any.whl", hash = "sha256:ef9d7589ef3c200abe66653d3f1ab1033c3c419ae9b9bdb1240a85b024efc88b"},
     {file = "pyparsing-2.4.7.tar.gz", hash = "sha256:c203ec8783bf771a155b207279b9bccb8dea02d8f0c9e5f8ead507bc3246ecc1"},
+]
+pyproject-script = [
+    {file = "pyproject-script-0.0.0a0.tar.gz", hash = "sha256:161b1f7244661e00c2952853e737c76504523a39752898d2b3bf400049089090"},
+    {file = "pyproject_script-0.0.0a0-py3-none-any.whl", hash = "sha256:75e0f9290d362660726fb97bb077ae9769f8320cc102dfa64fcae2f359cfd9ba"},
 ]
 pytest = [
     {file = "pytest-6.2.1-py3-none-any.whl", hash = "sha256:1969f797a1a0dbd8ccf0fecc80262312729afea9c17f1d70ebf85c5e76c6f7c8"},
