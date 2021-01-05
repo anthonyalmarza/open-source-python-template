@@ -42,7 +42,7 @@ jobs:
       #              run test suite
       #----------------------------------------------
       - name: Run Tests
-        run: pyscript tests
+        run: poetry run pyscript tests
       #----------------------------------------------
       #             upload coverage stats
       #----------------------------------------------
